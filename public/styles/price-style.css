@@ -1,0 +1,164 @@
+/*--- General definitions ---*/
+* {
+    font-family: 'Roboto', sans-serif;
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+h1 {
+    font-size: 1.8rem;
+
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.4rem;
+
+    font-weight: 500;
+}
+
+p {
+    font-size: 0.875rem;
+
+    font-weight: 300;
+}
+
+ul {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.9rem;
+
+    list-style: none;
+
+    opacity: 0.7;
+}
+
+/*--- Price section definitions ---*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 10rem auto 0 auto;
+    border-radius: 1rem;
+
+    box-shadow: 0 0 30px #808080;
+
+    width: 48rem;
+    height: 40rem;
+}
+
+.info {
+    width: 100%;
+    height: 40%;
+
+    background: #FFF;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+}
+.info h1 {
+    color: #5459E8;
+}
+.info h2 {
+    color: #54E871;
+
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+.info p {
+    color: #808080;
+
+    font-weight: 500;
+
+    margin-bottom: 0.5rem;
+}
+
+.price-card {
+    color: #FFF;
+
+    background: #5459E8;
+
+    padding: 2.5rem 2.5rem 0 2.5rem;
+
+    border-bottom-left-radius: 1rem;
+
+    width: 50%;
+    height: 60%;
+}
+.price-card h2 {
+    margin-bottom: 2.5rem;
+}
+
+.price {
+    width: 14rem;
+    
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.price span {
+    font-size: 2rem;
+}
+.price p {
+    font-size: 1rem;
+    
+    margin-top: 0.5rem;
+    
+    opacity: 0.4;
+}
+
+.price-desc {
+    font-size: 1rem;
+
+    margin-top: 1rem;
+}
+
+.subscribe {
+    display: block;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+
+    background: #54E871;
+
+    padding-top: 0.75rem;
+    border-radius: 0.5rem;
+    margin-top: 3.25rem;
+
+    box-shadow: 0 0 15px #3C3FA6;
+
+    width: 100%;
+    height: 3rem;
+
+    transition: filter 0.2s;
+}
+.subscribe:hover {
+    filter: brightness(0.9);
+}
+
+.description {
+    color: #FFF;
+
+    background: #567BD1;
+
+    padding: 2.5rem 2.5rem 0;
+
+    border-bottom-right-radius: 1rem;
+
+    width: 50%;
+    height: 60%;
+}
+.description h2 {
+    margin-bottom: 2.5rem;
+}
