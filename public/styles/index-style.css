@@ -1,0 +1,93 @@
+/*--- General definitions ---*/
+* {
+    font-family: 'Roboto', sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+h1 {
+    font-size: 1.8rem;
+
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.4rem;
+
+    font-weight: 500;
+}
+
+p {
+    font-size: 0.875rem;
+
+    font-weight: 300;
+}
+
+ul {
+    font-size: 0.875rem;
+
+    list-style: none;
+}
+
+/*--- Price section definitions ---*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #FFF;
+
+    margin: 10rem auto 0 auto;
+    border-radius: 1rem;
+
+    width: 48rem;
+    height: 40rem;
+}
+
+.info {
+    width: 100%;
+    height: 50%;
+
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+.info h1 {
+    color: #5459E8;
+}
+.info h2 {
+    color: #54E871;
+
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+.info p {
+    color: #808080;
+
+    font-weight: 500;
+
+    margin-bottom: 0.5rem;
+}
+
+.price-card {
+    color: #FFF;
+
+    background: #5459E8;
+
+
+
+    width: 50%;
+    height: 50%;
+}
+
+.description {
+    color: #FFF;
+
+    background: #567BD1;
+
+    width: 50%;
+    height: 50%;
+}
