@@ -1,4 +1,4 @@
-/*--- General definitions ---*/
+/*--- General ---*/
 * {
     font-family: 'Roboto', sans-serif;
 
@@ -39,13 +39,23 @@ ul {
 
     opacity: 0.7;
 }
+/*--- /General ---*/
 
-/*--- Price section definitions ---*/
+/*--- Header ---*/
+.logo {
+    width: 12rem;
+
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/*--- /Header ---*/
+
+/*--- Price card ---*/
 .card-container {
     display: flex;
     flex-wrap: wrap;
 
-    margin: 10rem auto 0 auto;
+    margin: 10rem auto 2rem auto;
     border-radius: 1rem;
 
     box-shadow: 0 0 30px #808080;
@@ -63,8 +73,7 @@ ul {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
-    padding-top: 2.5rem;
-    padding-left: 2.5rem;
+    padding: 2.5rem;
 }
 .info h1 {
     color: #5459E8;
@@ -161,4 +170,124 @@ ul {
 }
 .description h2 {
     margin-bottom: 2.5rem;
+}
+/*--- /Price card ---*/
+
+/*--- Footer ---*/
+footer {
+    position: relative;
+    
+    margin-top: 3rem;
+}
+
+footer p {
+    margin-left: 1rem;
+}
+
+footer p a {
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+/*--- /Footer ---*/
+
+/*--- Mobile Adaptation ---*/
+@media screen and (max-width: 840px) {
+    html {
+        font-size: 95%;
+    }
+
+    .card-container {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 745px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+/*--- Large Mobile ---*/
+@media screen and (max-width: 535px) {
+    .card-container {
+        width: 95vw;
+        height: 55.625rem;
+    }
+
+    .info {
+        height: 30%;
+    }
+
+    .price-card {
+        height: 35%;
+        width: 100%;
+
+        border-bottom-left-radius: 0;
+    }
+
+    .subscribe {
+        width: 80%;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .description {
+        height: 35%;
+        width: 100%;
+
+        border-bottom-left-radius: 1rem;
+    }
+}
+
+/*--- Medium Mobile ---*/
+@media screen and (max-width: 440px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+/*--- Short Mobile ---*/
+@media screen and (max-width: 370px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    html {
+        font-size: 35%;
+    }
 }
